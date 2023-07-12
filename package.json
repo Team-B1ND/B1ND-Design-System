@@ -1,0 +1,20 @@
+{
+  "name": "b1nd-designsystem",
+  "repository": "https://github.com/Team-B1ND/B1ND-Design-System.git",
+  "author": "백승하 <baekseungha@users.noreply.github.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.6.1",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build:all": "yarn workspaces foreach -p run build",
+    "release": "yarn build:all && yarn changeset publish",
+    "versioning": "yarn changeset version"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
+}
