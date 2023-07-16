@@ -8,5 +8,10 @@ build({
   platform: "node",
   sourcemap: true,
   bundle: true,
-  plugins: [pnpPlugin()],
+  plugins: [
+    pnpPlugin(),
+    inlineImage({
+      extensions: ["svg"],
+    }),
+  ],
 }).catch(() => process.exit(1));
