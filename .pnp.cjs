@@ -91,6 +91,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-loader", "virtual:b0d265526d939297255fa090e93b2ce031c204d669ba57f70ea8c2fd3f333a79f9e7137cfb27ed8fe2fbc901804bb93ab854e6e1e37d4ae9b7b3c02c4a459654#npm:8.3.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:b0d265526d939297255fa090e93b2ce031c204d669ba57f70ea8c2fd3f333a79f9e7137cfb27ed8fe2fbc901804bb93ab854e6e1e37d4ae9b7b3c02c4a459654#npm:18.2.0"],\
+            ["react-icons", "virtual:b0d265526d939297255fa090e93b2ce031c204d669ba57f70ea8c2fd3f333a79f9e7137cfb27ed8fe2fbc901804bb93ab854e6e1e37d4ae9b7b3c02c4a459654#npm:4.10.1"],\
             ["react-is", "npm:18.2.0"],\
             ["storybook", "npm:7.0.27"],\
             ["styled-components", "virtual:b0d265526d939297255fa090e93b2ce031c204d669ba57f70ea8c2fd3f333a79f9e7137cfb27ed8fe2fbc901804bb93ab854e6e1e37d4ae9b7b3c02c4a459654#npm:5.3.9"],\
@@ -21103,6 +21104,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-dom",\
             "@types/react",\
             "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-icons", [\
+        ["npm:4.10.1", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.10.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:b0d265526d939297255fa090e93b2ce031c204d669ba57f70ea8c2fd3f333a79f9e7137cfb27ed8fe2fbc901804bb93ab854e6e1e37d4ae9b7b3c02c4a459654#npm:4.10.1", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-9c5d84f5c3/0/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:b0d265526d939297255fa090e93b2ce031c204d669ba57f70ea8c2fd3f333a79f9e7137cfb27ed8fe2fbc901804bb93ab854e6e1e37d4ae9b7b3c02c4a459654#npm:4.10.1"],\
+            ["@types/react", "npm:18.2.15"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
             "react"\
           ],\
           "linkType": "HARD"\

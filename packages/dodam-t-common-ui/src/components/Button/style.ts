@@ -55,3 +55,12 @@ const getColor: Record<ButtonType, FlattenSimpleInterpolation> = {
     background-color: #ff6b6b;
   `,
 };
+
+export const ButtonWrapperBox = styled.div<{ customStyle?: CSSObject }>`
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  column-gap: 10px;
+`;

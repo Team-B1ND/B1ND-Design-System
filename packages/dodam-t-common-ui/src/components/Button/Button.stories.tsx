@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Button from "./Button";
+import { Button, ButtonWrapper } from "./Button";
 
 export default {
   title: "ui/Button",
@@ -8,7 +8,12 @@ export default {
   argTypes: {},
 } as ComponentMeta<typeof Button>;
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+const Template: ComponentStory<typeof Button> = (args) => (
+  <ButtonWrapper>
+    <Button type="agree">수락</Button>
+    <Button type="disagree">거절</Button>
+  </ButtonWrapper>
+);
 
 export const Agree = Template.bind({});
 Agree.args = {
