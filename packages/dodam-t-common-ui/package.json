@@ -5,20 +5,33 @@
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
     "build:clean": "rm -rf ./dist",
     "build:dist": "node esbuild.config.js",
-    "build:declaration": "yarn pnpify tsc"
+    "build:declaration": "yarn pnpify tsc",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
+    "@types/styled-components": "^5.1.26",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
     "react-is": "^18.2.0",
-    "styled-components": "^6.0.4",
+    "storybook": "latest",
+    "styled-components": "5.3.9",
     "typescript": "4.8.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@mdx-js/react": "^2.3.0",
+    "@storybook/addon-actions": "6.3.9",
+    "@storybook/addon-docs": "6.3.9",
+    "@storybook/addon-essentials": "6.3.9",
+    "@storybook/addon-links": "6.3.9",
+    "@storybook/react": "6.3.9",
     "@types/react": "^18.2.15",
-    "@yarnpkg/pnpify": "^4.0.0-rc.48"
+    "@yarnpkg/pnpify": "^4.0.0-rc.48",
+    "babel-loader": "^8.3.0"
   }
 }
