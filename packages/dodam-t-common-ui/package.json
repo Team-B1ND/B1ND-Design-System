@@ -1,6 +1,7 @@
 {
   "name": "@b1nd/b1nd-dodam-t-common-ui",
-  "packageManager": "yarn@3.6.1",
+  "version": "0.1.0",
+  "packageManager": "yarn@3.2.4",
   "scripts": {
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
     "build:clean": "rm -rf ./dist",
@@ -9,7 +10,12 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "",
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "author": "baekseungha <qortmdgk12@naver.com>",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
@@ -31,7 +37,9 @@
     "@storybook/addon-links": "6.3.9",
     "@storybook/react": "6.3.9",
     "@types/react": "^18.2.15",
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
     "@yarnpkg/pnpify": "^4.0.0-rc.48",
-    "babel-loader": "^8.3.0"
+    "babel-loader": "^8.3.0",
+    "esbuild": "^0.18.15"
   }
 }
