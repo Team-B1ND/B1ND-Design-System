@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn
 
       - name: Creating .npmrc
         run: |
@@ -35,7 +35,6 @@ jobs:
           EOF
         env:
           NPM_REGISTRY_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: echo ${{ github.workspace }}
 
       - name: Create Release Pull Request or Publish to npm
         # https://github.com/changesets/action
