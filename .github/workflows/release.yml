@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Install Dependencies
-        run: yarn install --immutable
+        run: yarn install --frozen-lockfile
 
       - name: Creating .npmrc
         run: |
