@@ -1,13 +1,13 @@
-import React, { ChangeEvent } from "react";
+import React from "react";
 import { SearchBarContainer, SearchBarIcon, SearchBarInput } from "./style";
 import { AiOutlineSearch } from "react-icons/ai";
-import { InputProps } from "./types";
+import { SearchBarProps } from "./types";
 
-export const Input = ({
+export const SearchBar = ({
   onChange = () => {},
   onSubmit = () => {},
   value,
-}: InputProps) => {
+}: SearchBarProps) => {
   return (
     <SearchBarContainer
       onSubmit={(e) => {

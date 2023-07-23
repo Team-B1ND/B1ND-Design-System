@@ -1,13 +1,15 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { Input } from "./Input";
+import { SearchBar } from "./SearchBar";
 export default {
   title: "ui/Input",
-  component: Input,
+  component: SearchBar,
   argTypes: {},
-} as ComponentMeta<typeof Input>;
+} as ComponentMeta<typeof SearchBar>;
 
-const Template: ComponentStory<typeof Input> = (args) => <Input {...args} />;
+const Template: ComponentStory<typeof SearchBar> = (args) => (
+  <SearchBar {...args} />
+);
 
 export const Common = Template.bind({});
 Common.args = {};
