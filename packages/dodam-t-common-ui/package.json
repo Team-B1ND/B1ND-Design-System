@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-dodam-t-common-ui",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "packageManager": "yarn@3.2.4",
   "scripts": {
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
