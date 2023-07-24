@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 2.0.2
+
+### Patch Changes
+
+- 6a1cf19: add react-dom type
+
 ## 2.0.1
 
 ### Patch Changes
