@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-dodam-t-common-ui",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "packageManager": "yarn@3.2.4",
   "description": "b1nd dodam teacher ui",
   "scripts": {
