@@ -47,6 +47,7 @@ __metadata:
     "@storybook/addon-links": 6.3.9
     "@storybook/react": 6.3.9
     "@types/react": ^18.2.15
+    "@types/react-dom": ^18.2.7
     "@types/styled-components": ^5.1.26
     "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
     "@yarnpkg/pnpify": ^4.0.0-rc.48
@@ -4687,6 +4688,15 @@ __metadata:
   dependencies:
     "@types/react": "*"
   checksum: 6bcf40714e0dafff66cbf10a534320eae35dae8344f616d2ddf077937287a0df188dfbfb32fb8045cbc641139d1ab69ee5bb258a51642823cadefbcda020a044
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:^18.2.7":
+  version: 18.2.7
+  resolution: "@types/react-dom@npm:18.2.7"
+  dependencies:
+    "@types/react": "*"
+  checksum: e02ea908289a7ad26053308248d2b87f6aeafd73d0e2de2a3d435947bcea0422599016ffd1c3e38ff36c42f5e1c87c7417f05b0a157e48649e4a02f21727d54f
   languageName: node
   linkType: hard
 
