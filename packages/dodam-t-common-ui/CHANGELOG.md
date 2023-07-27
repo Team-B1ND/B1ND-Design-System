@@ -1,5 +1,15 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 0.2.0
+
+### Minor Changes
+
+- 47d5cb9: change esbuild
+
+### Patch Changes
+
+- 47d5cb9: dist patch
+
 ## 2.0.2
 
 ### Patch Changes
