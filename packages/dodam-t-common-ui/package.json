@@ -1,7 +1,6 @@
 {
   "name": "@b1nd/b1nd-dodam-t-common-ui",
-  "version": "2.0.2",
-  "packageManager": "yarn@3.2.4",
+  "version": "0.1.0",
   "description": "b1nd dodam teacher ui",
   "scripts": {
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
@@ -20,6 +19,11 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "ISC",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "styled-components": ">=5.3.5"
+  },
   "dependencies": {
     "@types/styled-components": "^5.1.26",
     "react": "^18.2.0",
