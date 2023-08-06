@@ -1,5 +1,5 @@
 {
-  "name": "b1nd-design-token",
+  "name": "@b1nd/b1nd-design-token",
   "description": "b1nd design token",
   "packageManager": "yarn@3.2.4",
   "main": "./dist/index.js",
