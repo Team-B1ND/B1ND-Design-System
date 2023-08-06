@@ -35,6 +35,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@b1nd/b1nd-design-token@workspace:packages/b1nd-design-token":
+  version: 0.0.0-use.local
+  resolution: "@b1nd/b1nd-design-token@workspace:packages/b1nd-design-token"
+  dependencies:
+    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
+    esbuild: ^0.18.18
+    esbuild-css-modules-plugin: 2.6.3
+  languageName: unknown
+  linkType: soft
+
 "@b1nd/b1nd-dodam-ui@workspace:packages/b1nd-dodam-ui":
   version: 0.0.0-use.local
   resolution: "@b1nd/b1nd-dodam-ui@workspace:packages/b1nd-dodam-ui"
@@ -5978,16 +5988,6 @@ __metadata:
   checksum: 20eb47b3cefd7db027b9bbb993c658abd36d4edd3fe1060e83699a03ee275b0c9b216cc076ff3f2db29073225fb70e7613987af14269ac1fe2a19803ccc97f1a
   languageName: node
   linkType: hard
-
-"b1nd-design-token@workspace:packages/b1nd-design-token":
-  version: 0.0.0-use.local
-  resolution: "b1nd-design-token@workspace:packages/b1nd-design-token"
-  dependencies:
-    "@yarnpkg/esbuild-plugin-pnp": ^3.0.0-rc.15
-    esbuild: ^0.18.18
-    esbuild-css-modules-plugin: 2.6.3
-  languageName: unknown
-  linkType: soft
 
 "b1nd-designsystem@workspace:.":
   version: 0.0.0-use.local
