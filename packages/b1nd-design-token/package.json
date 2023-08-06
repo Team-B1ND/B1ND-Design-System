@@ -1,0 +1,28 @@
+{
+  "name": "b1nd-design-token",
+  "description": "b1nd design token",
+  "packageManager": "yarn@3.2.4",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "main": "./dist/index.js",
+    "typings": "./dist/index.d.ts"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
+    "build:clean": "rm -rf ./dist",
+    "build:dist": "node esbuild.config.js",
+    "build:declaration": "tsc"
+  },
+  "author": "baekseungha <qortmdgk12@naver.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild-css-modules-plugin": "2.6.3"
+  },
+  "dependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
+    "esbuild": "^0.18.18"
+  }
+}
