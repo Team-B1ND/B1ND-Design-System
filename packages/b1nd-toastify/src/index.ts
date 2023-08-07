@@ -1,2 +1,2 @@
-export * from "./B1ND-Toast/index";
-export * from "./B1ND-ToastContainer/b1ndToastContainer";
+export * from "./b1nd-toast/index";
+export * from "./b1nd-toastContainer/b1ndToastContainer";
