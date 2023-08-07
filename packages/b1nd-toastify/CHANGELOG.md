@@ -1,5 +1,11 @@
 # @b1nd/b1nd-toastify
 
+## 2.0.0
+
+### Major Changes
+
+- a03a13c: fix file path
+
 ## 1.0.0
 
 ### Major Changes
