@@ -1,7 +1,7 @@
-const { build } = require("esbuild");
 const pkg = require("./package.json");
 const { pnpPlugin } = require("@yarnpkg/esbuild-plugin-pnp");
 const inlineImage = require("esbuild-plugin-inline-image");
+const { build } = require("esbuild");
 
 const external = Object.keys({
   ...pkg.dependencies,
@@ -17,9 +17,9 @@ build({
   bundle: true,
   external: [...external],
   plugins: [
+    pnpPlugin(),
     inlineImage({
       extensions: ["png"],
     }),
-    pnpPlugin(),
   ],
 }).catch(() => process.exit(1));
