@@ -9,3 +9,4 @@ export * from "./components/common/Dialog/Dialog";
 export * from "./components/common/Modal/Modal";
 export * from "./components/common/RequireText/RequireText";
 export * from "./components/common/Spinner/Spinner";
+export * from "./components/common/MenuDropdown/MenuDropdown";
