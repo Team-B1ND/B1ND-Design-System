@@ -5,6 +5,7 @@
   "description": "b1nd uitl",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "author": "baekseungha <qortmdgk12@naver.com>",
   "license": "ISC",
   "scripts": {
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
