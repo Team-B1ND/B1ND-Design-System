@@ -12,6 +12,12 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
 
+    name: Configure Git
+    run: |
+      git config --global user.email "qortmdgk12@naver.com"
+      git config --global user.name "baekseungha"
+
+
     steps:
       - name: Checkout Repo
         # https://github.com/actions/checkout
