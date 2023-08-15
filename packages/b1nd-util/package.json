@@ -1,17 +1,14 @@
 {
-  "name": "@b1nd/b1nd-dodam-ui",
+  "name": "@b1nd/b1nd-util",
   "version": "1.0.0",
-  "description": "B1ND DodamDodam UI",
+  "description": "b1nd util",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "packageManager": "yarn@3.2.4",
   "scripts": {
     "build": "npm run build:clean && npm run build:dist && npm run build:declaration",
     "build:clean": "rm -rf ./dist",
     "build:dist": "node esbuild.config.js",
-    "build:declaration": "yarn pnpify tsc",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build:declaration": "yarn pnpify tsc"
   },
   "publishConfig": {
     "access": "public",
@@ -22,28 +19,19 @@
   "license": "ISC",
   "dependencies": {
     "@types/styled-components": "^5.1.26",
-    "esbuild-plugin-inline-image": "^0.0.9",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "react-is": "^18.2.0",
-    "storybook": "latest",
-    "styled-components": "5.3.9",
-    "typescript": "4.8.4"
+    "styled-components": "5.3.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@mdx-js/react": "^2.3.0",
-    "@storybook/addon-actions": "6.3.9",
-    "@storybook/addon-docs": "6.3.9",
-    "@storybook/addon-essentials": "6.3.9",
-    "@storybook/addon-links": "6.3.9",
-    "@storybook/react": "6.3.9",
+    "@types/lodash": "^4",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
+    "@types/react-is": "^18",
     "@yarnpkg/esbuild-plugin-pnp": "^3.0.0-rc.15",
     "@yarnpkg/pnpify": "^4.0.0-rc.48",
-    "babel-loader": "^8.3.0",
-    "esbuild": "^0.19.0"
+    "esbuild": "^0.19.2",
+    "react-is": "^18.2.0"
   }
 }
