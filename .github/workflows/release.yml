@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v2
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn install --immutable
 
       - name: Creating .npmrc
         run: |
