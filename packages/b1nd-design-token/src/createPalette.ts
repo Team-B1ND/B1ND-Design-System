@@ -7,7 +7,6 @@ interface Param {
 
 export const createPalette = ({ mainColor, subMainColor }: Param) => {
   let copyPalette = JSON.parse(JSON.stringify(b1ndPalette));
-
   copyPalette["main"] = mainColor;
 
   if (subMainColor) {
