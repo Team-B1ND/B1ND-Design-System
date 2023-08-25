@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-styled-components-theme",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "packageManager": "yarn@3.2.4",
   "description": "b1nd styled-components theme",
   "main": "./dist/index.js",
