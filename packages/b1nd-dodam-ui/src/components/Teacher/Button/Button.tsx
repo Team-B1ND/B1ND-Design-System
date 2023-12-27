@@ -4,7 +4,7 @@ import { ButtonProps, ButtonWrapperProps } from "./types";
 
 export const Button = ({ type, style, children, onClick }: ButtonProps) => {
   return (
-    <ButtonContainer customStyle={style} ButtonColor={type} onClick={onClick}>
+    <ButtonContainer onClick={onClick} customStyle={style} ButtonColor={type}>
       {children}
     </ButtonContainer>
   );

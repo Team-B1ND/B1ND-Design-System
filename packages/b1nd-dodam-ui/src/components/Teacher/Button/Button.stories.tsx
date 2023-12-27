@@ -8,10 +8,18 @@ export default {
   argTypes: {},
 } as ComponentMeta<typeof Button>;
 
+const onClick = () => {
+  console.log("click");
+};
+
 const Template: ComponentStory<typeof Button> = () => (
   <ButtonWrapper>
-    <Button type="agree">수락</Button>
-    <Button type="disagree">거절</Button>
+    <Button onClick={onClick} type="agree">
+      수락
+    </Button>
+    <Button onClick={onClick} type="disagree">
+      거절
+    </Button>
   </ButtonWrapper>
 );
 
