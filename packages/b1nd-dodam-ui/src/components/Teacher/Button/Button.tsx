@@ -2,9 +2,9 @@ import React from "react";
 import { ButtonContainer, ButtonWrapperBox } from "./style";
 import { ButtonProps, ButtonWrapperProps } from "./types";
 
-export const Button = ({ type, style, children }: ButtonProps) => {
+export const Button = ({ type, style, children, onClick }: ButtonProps) => {
   return (
-    <ButtonContainer customStyle={style} ButtonColor={type}>
+    <ButtonContainer customStyle={style} ButtonColor={type} onClick={onClick}>
       {children}
     </ButtonContainer>
   );

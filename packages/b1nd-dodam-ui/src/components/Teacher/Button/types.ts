@@ -5,6 +5,7 @@ export interface ButtonProps {
   type: ButtonType;
   style?: CSSObject;
   children: string;
+  onClick: () => void;
 }
 
 export interface ButtonWrapperProps {
