@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 3.0.2
+
+### Patch Changes
+
+- 277bd7f: version patch
+
 ## 1.0.1
 
 ### Patch Changes
