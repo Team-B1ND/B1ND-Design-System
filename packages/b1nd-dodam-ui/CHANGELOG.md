@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 2.0.1
+
+### Patch Changes
+
+- 8022e54: add onclick for button
+
 ## 2.0.0
 
 ### Major Changes
