@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 1.0.1
+
+### Patch Changes
+
+- b3e488e: add onclick props for button
+
 ## 3.0.0
 
 ### Major Changes
