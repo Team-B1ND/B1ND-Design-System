@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 1.1.0
+
+### Minor Changes
+
+- 205f420: test
+
 ## 3.0.3
 
 ### Patch Changes
