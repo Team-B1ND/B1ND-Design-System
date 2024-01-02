@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 1.1.3
+
+### Patch Changes
+
+- 8c6d557: test
+
 ## 1.1.2
 
 ### Patch Changes
