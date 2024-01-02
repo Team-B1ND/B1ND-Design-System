@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 3.0.0
+
+### Major Changes
+
+- 66ead9e: release
+
 ## 2.0.0
 
 ### Major Changes
