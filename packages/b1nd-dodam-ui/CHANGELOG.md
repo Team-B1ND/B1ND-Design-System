@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 1.1.2
+
+### Patch Changes
+
+- d4031c5: patch
+
 ## 1.1.1
 
 ### Patch Changes
