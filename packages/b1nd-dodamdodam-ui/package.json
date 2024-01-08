@@ -1,6 +1,6 @@
 {
   "name": "@b1nd/b1nd-dodamdodam-ui",
-  "version": "2.1.2",
+  "version": "0.0.0",
   "description": "B1ND DodamDodam UI",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

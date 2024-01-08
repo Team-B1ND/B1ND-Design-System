@@ -45,9 +45,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@b1nd/b1nd-dodamdodam-ui@workspace:packages/b1nd-dodam-ui":
+"@b1nd/b1nd-dodamdodam-ui@workspace:packages/b1nd-dodamdodam-ui":
   version: 0.0.0-use.local
-  resolution: "@b1nd/b1nd-dodamdodam-ui@workspace:packages/b1nd-dodam-ui"
+  resolution: "@b1nd/b1nd-dodamdodam-ui@workspace:packages/b1nd-dodamdodam-ui"
   dependencies:
     "@babel/core": ^7.22.9
     "@mdx-js/react": ^2.3.0
