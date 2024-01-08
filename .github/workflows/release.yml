@@ -31,6 +31,7 @@ jobs:
       - name: Creating .npmrc
         run: |
           cat << EOF > "./.npmrc"
+            email=mdev_team@dgsw.hs.kr
            //registry.npmjs.org/:_authToken=$NPM_REGISTRY_TOKEN
           EOF
         env:
