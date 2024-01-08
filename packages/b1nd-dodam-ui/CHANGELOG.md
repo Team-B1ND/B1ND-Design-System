@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 2.1.2
+
+### Patch Changes
+
+- cbdfa7d: test
+
 ## 2.1.1
 
 ### Patch Changes
