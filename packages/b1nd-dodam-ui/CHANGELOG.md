@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 2.0.1
+
+### Patch Changes
+
+- fb0371b: patch
+
 ## 2.0.0
 
 ### Major Changes
