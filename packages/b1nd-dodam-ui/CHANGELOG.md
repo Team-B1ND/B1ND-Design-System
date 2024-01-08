@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 2.1.0
+
+### Minor Changes
+
+- 12be32e: patch
+
 ## 2.0.1
 
 ### Patch Changes
