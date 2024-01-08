@@ -7,7 +7,7 @@ import { ButtonType } from "./types";
 
 export const ButtonContainer = styled.button<{
   customStyle?: CSSObject;
-  ButtonColor: ButtonType;
+  ButtonType: ButtonType;
 }>`
   width: 85px;
   height: 32px;
@@ -23,7 +23,7 @@ export const ButtonContainer = styled.button<{
   font-size: 18px;
   border: none;
   outline: none;
-  ${({ ButtonColor }) => getColor[ButtonColor]}
+  ${({ ButtonType }) => getColor[ButtonType]}
   ${({ customStyle }) => customStyle}
 `;
 

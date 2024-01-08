@@ -1,11 +1,10 @@
-import { ReactNode } from "react";
+import { ButtonHTMLAttributes, ReactNode } from "react";
 import { CSSObject } from "styled-components";
 
-export interface ButtonProps {
-  type: ButtonType;
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  ButtonType: ButtonType;
   style?: CSSObject;
   children: string;
-  onClick: () => void;
 }
 
 export interface ButtonWrapperProps {

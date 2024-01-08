@@ -14,10 +14,10 @@ const onClick = () => {
 
 const Template: ComponentStory<typeof Button> = () => (
   <ButtonWrapper>
-    <Button onClick={onClick} type="agree">
+    <Button onClick={onClick} ButtonType="agree">
       수락
     </Button>
-    <Button onClick={onClick} type="disagree">
+    <Button onClick={onClick} ButtonType="disagree">
       거절
     </Button>
   </ButtonWrapper>
@@ -26,29 +26,29 @@ const Template: ComponentStory<typeof Button> = () => (
 export const Agree = Template.bind({});
 Agree.args = {
   children: "수락",
-  type: "agree",
+  ButtonType: "agree",
 };
 
 export const Agreed = Template.bind({});
 Agreed.args = {
   children: "복귀 처리",
-  type: "agreed",
+  ButtonType: "agreed",
 };
 
 export const Disagree = Template.bind({});
 Disagree.args = {
   children: "거절",
-  type: "disagree",
+  ButtonType: "disagree",
 };
 
 export const Disagreed = Template.bind({});
 Disagreed.args = {
   children: "승인 취소",
-  type: "disagreed",
+  ButtonType: "disagreed",
 };
 
 export const Cancel = Template.bind({});
 Cancel.args = {
   children: "거절됨",
-  type: "cancel",
+  ButtonType: "cancel",
 };
