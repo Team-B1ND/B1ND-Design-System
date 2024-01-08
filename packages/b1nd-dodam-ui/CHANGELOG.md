@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 2.0.0
+
+### Major Changes
+
+- a648bcd: fix buttonprops and npm token type
+
 ## 3.0.0
 
 ### Major Changes
