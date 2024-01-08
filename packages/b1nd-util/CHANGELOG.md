@@ -1,5 +1,11 @@
 # @b1nd/b1nd-util
 
+## 2.0.2
+
+### Patch Changes
+
+- f6dffc8: patch
+
 ## 2.0.1
 
 ### Patch Changes
