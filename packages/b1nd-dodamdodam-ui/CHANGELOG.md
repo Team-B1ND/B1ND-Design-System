@@ -1,5 +1,11 @@
 # @b1nd/b1nd-dodam-t-common-ui
 
+## 1.0.0
+
+### Major Changes
+
+- 1ac2c74: first release
+
 ## 2.0.0
 
 ### Major Changes
