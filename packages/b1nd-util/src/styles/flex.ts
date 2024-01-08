@@ -7,7 +7,11 @@ interface PropsType {
   alignItems?: CSSProperties["alignItems"];
 }
 
-const flex = ({ flexDirection, justifyContent, alignItems }: PropsType) => {
+export const flex = ({
+  flexDirection,
+  justifyContent,
+  alignItems,
+}: PropsType) => {
   return css`
     display: flex;
     flex-direction: ${flexDirection};
@@ -15,5 +19,3 @@ const flex = ({ flexDirection, justifyContent, alignItems }: PropsType) => {
     align-items: ${alignItems};
   `;
 };
-
-export default flex;
